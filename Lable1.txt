@@ -1,0 +1,20 @@
+import java.awt.*;
+public class Lable1
+{
+public static void main(String a[])
+{
+Frame frame;
+Panel p1;
+Lable l1;
+frame= new Frame("My Frame");
+frame.setVisible(true);
+frame.setSize(300,300);
+p1=new Panel();
+frame.add(p1);
+l1=new Lable();
+l1.addItem("nashik");
+l1.addItem("mumbai");
+l1.addItem("pune");
+p1.add(ch);
+}
+}

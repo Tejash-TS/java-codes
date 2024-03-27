@@ -1,0 +1,5 @@
+class student
+{
+public static void main(string args[])
+
+int marks =90,rollno=117

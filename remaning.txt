@@ -1,0 +1,81 @@
+import java.util.*;
+
+class Bank
+{
+public
+int code;
+string Bname;
+scanner s=new Scanner(System.in);
+void putB()
+{
+System.out.println("enter bank name=");
+Bname=s.next();
+System.out.println("enetr code");
+code=s.next();
+}
+void getB()
+{
+System.out.println("enter bank name="+Bname);
+System.out.println("enetr code"+code);
+}
+}
+
+
+class Loan extends Bank
+{
+public
+float roi,amt;
+int No;
+scanner s=new Scanner(System.in);
+void putL()
+{
+System.out.println("enter amount");
+amt=s.next();
+System.out.println("enter roi");
+roi=s.next();
+System.out.println("enter no");
+No=s.nextInt();
+}
+void getL()
+{
+System.out.println("enter amount="+amount);
+System.out.println("enter roi"+roi);
+System.out.println("enter no"+No);
+}
+}
+
+
+interface Cust
+{
+int id;
+string name;
+scanner s=new Scanner(System.in);
+void putC()
+{
+System.out.println("enter id");
+id=s.nextInt();
+System.out.println("enter name=");
+name=s.next();
+}
+void getC()
+{
+System.out.println("enter id="+id);
+System.out.println("enter name="+name);
+}
+}
+
+class Result extends Lone implement cust
+{
+
+public static void main(String args[])
+{
+Result r= new Result();
+r.putB();
+r.getB();
+r.getL();
+r.putL();
+r.putC();
+r.putC();
+}
+}
+
